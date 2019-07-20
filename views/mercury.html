@@ -1,4 +1,19 @@
 <% include partials/header %>
     <h1>Welcome to Mercury</h1>
-    <img src="/img/mercury.png" alt="Mercury" />
+    <% include partials/navBar %>
+    <div class="container" style="margin-top:30px">
+      <div class="row">
+        <div class="col-sm-4 bg-dark text-white">
+          <h2>Facts</h2>
+          <p>Mercury is the second densest planet behind Earth.</p>
+          <p>Mercury has no moons.</p>
+          <p>Mercury is the smallest planet.</p>
+          <p>Mercury has an iron core that makes up about 40% of its volume.</p>
+          <p>Mercury has more craters and impact marks than any other planet.</p>
+        </div>
+        <div class="col-sm-8">
+          <img class="float-left img-fluid" src="/img/mercury.png" alt="Mercury" />    
+        </div>
+      </div>
+    </div>
 <% include partials/footer %>
